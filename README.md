@@ -68,3 +68,130 @@ Detailed step-by-step guide, for virtualization and operating system installatio
 - Complete the initial setup, including updating the system and installing any additional software.
 
 Congratulations! You've successfully installed VirtualBox and Ubuntu on your virtual machine. Feel free to explore and use Ubuntu for your college projects and assignments.
+
+---
+Certainly! Here are some fundamental Linux commands along with examples:
+
+1. **pwd (Print Working Directory):**
+   - Shows the current directory.
+   ```bash
+   pwd
+   ```
+
+2. **ls (List Files):**
+   - Lists files and directories in the current directory.
+   ```bash
+   ls
+   ```
+
+3. **cd (Change Directory):**
+   - Changes the current directory.
+   ```bash
+   cd /path/to/directory
+   ```
+
+4. **mkdir (Make Directory):**
+   - Creates a new directory.
+   ```bash
+   mkdir new_directory
+   ```
+
+5. **rmdir (Remove Directory):**
+   - Removes an empty directory.
+   ```bash
+   rmdir directory_to_remove
+   ```
+
+6. **cp (Copy):**
+   - Copies files or directories.
+   ```bash
+   cp file.txt /path/to/destination
+   ```
+
+7. **mv (Move):**
+   - Moves or renames files or directories.
+   ```bash
+   mv old_file.txt new_location/
+   mv file.txt new_name.txt
+   ```
+
+8. **rm (Remove):**
+   - Deletes files or directories.
+   ```bash
+   rm file.txt
+   rm -r directory_to_remove  # recursively remove a directory
+   ```
+
+9. **touch (Create Empty File):**
+   - Creates an empty file.
+   ```bash
+   touch new_file.txt
+   ```
+
+10. **nano (Text Editor):**
+    - Opens the nano text editor.
+    ```bash
+    nano file.txt
+    ```
+
+11. **cat (Concatenate and Display):**
+    - Displays the contents of a file.
+    ```bash
+    cat file.txt
+    ```
+
+12. **man (Manual):**
+    - Displays the manual or help for a command.
+    ```bash
+    man ls
+    ```
+
+13. **chmod (Change Permissions):**
+    - Changes file permissions.
+    ```bash
+    chmod +x script.sh  # add execute permission
+    ```
+
+14. **chown (Change Ownership):**
+    - Changes the owner of a file or directory.
+    ```bash
+    chown user:group file.txt
+    ```
+
+15. **ps (Process Status):**
+    - Displays information about running processes.
+    ```bash
+    ps aux
+    ```
+
+16. **kill (Kill Process):**
+    - Sends a signal to terminate a process.
+    ```bash
+    kill process_id
+    ```
+
+17. **df (Disk Free):**
+    - Displays information about disk space usage.
+    ```bash
+    df -h
+    ```
+
+18. **du (Disk Usage):**
+    - Displays the sizes of directories and files.
+    ```bash
+    du -h
+    ```
+
+19. **grep (Global Regular Expression Print):**
+    - Searches for a pattern in files.
+    ```bash
+    grep "pattern" file.txt
+    ```
+
+20. **wget (Web Get):**
+    - Downloads files from the web.
+    ```bash
+    wget https://example.com/file.zip
+    ```
+
+These are just a few basic commands, and there are many more available. Remember to use the `man` command followed by the command name for more detailed information and options.
