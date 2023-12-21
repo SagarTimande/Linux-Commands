@@ -246,6 +246,28 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```bash
    vi filename
    ```
+---
+1. **Entering Insert Mode:**
+   - Press `i` to enter insert mode. In insert mode, you can type and edit the content of the file.
+
+   ```bash
+   i
+   ```
+
+2. **Saving Changes and Quitting:**
+   - To save changes and exit vi, press `Esc` to ensure you are in command mode, then type `:wq` and press `Enter`.
+
+   ```bash
+   :wq
+   ```
+
+3. **Quitting Without Saving:**
+   - If you want to quit vi without saving changes, press `Esc` to ensure you are in command mode, then type `:q!` and press `Enter`.
+
+   ```bash
+   :q!
+   ```
+---
 
 19. **`echo "content" > filename` (Append Line to File):**
    - Adds a line of content to a file. If the file already exists, it will be overwritten.
@@ -312,30 +334,6 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     ```bash
     history > historyfile.txt
     ```
-
----
-
-1. **Entering Insert Mode:**
-   - Press `i` to enter insert mode. In insert mode, you can type and edit the content of the file.
-
-   ```bash
-   i
-   ```
-
-2. **Saving Changes and Quitting:**
-   - To save changes and exit vi, press `Esc` to ensure you are in command mode, then type `:wq` and press `Enter`.
-
-   ```bash
-   :wq
-   ```
-
-3. **Quitting Without Saving:**
-   - If you want to quit vi without saving changes, press `Esc` to ensure you are in command mode, then type `:q!` and press `Enter`.
-
-   ```bash
-   :q!
-   ```
----
 
 27. **head/tail:**
     - Displays the first/last part of a file.
