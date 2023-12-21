@@ -196,7 +196,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
 
    ```bash
    mkdir Demo_Directory
-
+   ```
 
 13. **`cd` (Change Directory):**
    - Changes the current working directory.
