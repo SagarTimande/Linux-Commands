@@ -110,7 +110,7 @@ Explanation of each directory in a typical Linux file system:
 12. **`/usr` (User Binaries and Data):**
     - The `/usr` directory contains user-related programs, libraries, documentation, and source code. The `/usr/bin` subdirectory, for instance, holds user binaries (executable files).
 
-Remember that while many Linux systems follow a similar directory structure, there can be variations based on the distribution and specific configurations. The Filesystem Hierarchy Standard (FHS) is a set of guidelines that many Linux distributions adhere to in order to maintain a consistent directory structure.
+Remember that while many Linux systems follow a similar directory structure, there can be variations based on the distribution and specific configurations. The Filesystem Hierarchy Standard (FHS) is a set of guidelines that many Linux distributions adhere to maintain a consistent directory structure.
 
 ---
 Certainly! Here's an explanation of each of the basic commands you've listed:
@@ -135,6 +135,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     ```bash
     hostname
     ```
+
 4. **`date`:**
     - Prints the current date and time.
 
@@ -142,65 +143,62 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     date
     ```
     
-47. **cal (Calendar):**
-    -
-
- Displays a calendar.
+5. **cal (Calendar):**
+    - Displays a calendar.
 
     ```bash
     cal
     ```
 
-2. **`echo` (Print Message):**
+6. **`echo` (Print Message):**
    - Prints a message to the screen.
 
    ```bash
    echo "Hello, World!"
    ```
 
-9. **`history` (Display Command History):**
-   - Displays a list of previously executed commands.
+7. **man (Manual):**
+    - Displays the manual or help for a command.
+    ```bash
+    man ls
+    ```
 
-   ```bash
-   history
-   ```
-
-4. **`pwd` (Print Working Directory):**
+8. **`pwd` (Print Working Directory):**
    - Displays the current working directory's full path.
 
    ```bash
    pwd
    ```
 
-7. **`ls` (List):**
+9. **`ls` (List):**
    - Lists the files and directories in the current directory.
 
    ```bash
    ls
    ```
 
-8. **`ls -l` (Long List):**
+10. **`ls -l` (Long List):**
    - Displays a detailed long-format listing of files and directories, including additional information such as permissions, owner, group, size, and modification time.
 
    ```bash
    ls -l
    ```
 
-9. **`ls -a` (List All):**
+11. **`ls -a` (List All):**
    - Displays all files and directories, including hidden ones. Hidden files start with a dot (`.`).
 
    ```bash
    ls -a
    ```
 
-5. **`mkdir` (Make Directory):**
+12. **`mkdir` (Make Directory):**
    - Creates a new directory.
 
    ```bash
    mkdir Demo_Directory
 
 
-6. **`cd` (Change Directory):**
+13. **`cd` (Change Directory):**
    - Changes the current working directory.
 
    ```bash
@@ -208,14 +206,14 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```
 
    
-10. **`rmdir` (Remove Directory):**
+14. **`rmdir` (Remove Directory):**
    - Removes an empty directory.
 
    ```bash
    rmdir Demo_Directory
    ```
 
-11. **`cd ~` (Home Directory):**
+15. **`cd ~` (Home Directory):**
    - Changes the current working directory to the user's home directory.
 
    ```bash
@@ -228,28 +226,28 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    cd
    ```
 
-12. **`mkdir -p /home/ubuntu/New_Directory` (Create Directory with Path):**
+16. **`mkdir -p /home/ubuntu/New_Directory` (Create Directory with Path):**
     - Creates a directory and any necessary parent directories in the specified path.
 
     ```bash
     mkdir -p /home/ubuntu/NewDirectory
     ```
 
-1. **`touch` (Create Empty File):**
+17. **`touch` (Create Empty File):**
    - Creates an empty file with the specified name.
 
    ```bash
    touch file1.txt file2.txt
    ```
 
-8. **`vi` (Text Editor):**
+18. **`vi` (Text Editor):**
    - Opens the default text editor in Linux, Vi.
 
    ```bash
    vi filename
    ```
 
-2. **`echo "content" > filename` (Append Line to File):**
+19. **`echo "content" > filename` (Append Line to File):**
    - Adds a line of content to a file. If the file already exists, it will be overwritten.
 
    ```bash
@@ -260,42 +258,42 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    echo "This is a sample content." > file2.txt
    ```
 
-6. **`cat` (Concatenate and Display):**
+20. **`cat` (Concatenate and Display):**
    - Displays the content of a file.
 
    ```bash
    cat file1.txt
    ```
 
-7. **`cat file1.txt file2.txt > test3` (Merge Files):**
+21. **`cat file1.txt file2.txt > test3` (Merge Files):**
    - Merges the content of two files into a new file.
 
    ```bash
    cat file1.txt file2.txt > test3
    ```
    
-4. **`echo "content" >> filename` (Append Next Line to File):**
+22. **`echo "content" >> filename` (Append Next Line to File):**
    - Appends the specified content as the next line in the file.
 
    ```bash
    echo "This is another line of content." >> file1.txt
    ```
 
-11. **`cp` (Copy):**
+23. **`cp` (Copy):**
     - Copies files or directories.
 
     ```bash
     cp file1.txt /home/ubuntu/
     ```
 
-12. **`mv` (Move):**
+24. **`mv` (Move):**
     - Moves a file from one location to another or renames a file.
 
     ```bash
     mv file2.txt /home/ubuntu/
     ```
 
-13. **`rm` (Remove):**
+25. **`rm` (Remove):**
     - Removes files or directories.
 
     ```bash
@@ -308,7 +306,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     rm -rf NewDirectory
     ```
 
-10. **`history > filename.txt` (Save Command History to File):**
+26. **`history > filename.txt` (Save Command History to File):**
     - Writes the command history to a text file.
 
     ```bash
@@ -339,70 +337,70 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```
 ---
 
-14. **head/tail:**
+27. **head/tail:**
     - Displays the first/last part of a file.
 
     ```bash
     head file.txt
     ```
 
-15. **chmod (Change Mode):**
+28. **chmod (Change Mode):**
     - Changes file permissions.
 
     ```bash
     chmod permissions file.txt
     ```
 
-16. **chown (Change Owner):**
+29. **chown (Change Owner):**
     - Changes the owner of a file or directory.
 
     ```bash
     chown user:group file.txt
     ```
 
-24. **ping (Network Connectivity):**
+30. **ping (Network Connectivity):**
     - Tests network connectivity to a specific IP.
 
     ```bash
     ping google.com
     ```
 
-26. **wget (Web Get):**
+31. **wget (Web Get):**
     - Downloads files from the internet.
 
     ```bash
     wget https://example.com/file.zip
     ```
 
-29. **ssh (Secure Shell):**
+32. **ssh (Secure Shell):**
     - Connects to a remote server securely.
 
     ```bash
     ssh user@remote_server
     ```
 
-35. **uname:**
+33. **uname:**
     - Displays system information.
 
     ```bash
     uname -a
     ```
 
-39. **history:**
+34. **history:**
     - Displays the command history.
 
     ```bash
     history
     ```
 
-40. **sudo (Superuser Do):**
+35. **sudo (Superuser Do):**
     - Executes a command with administrative privileges.
 
     ```bash
     sudo command
     ```
 
-41. **adduser/useradd:**
+36. **adduser/useradd:**
     - Adds a new user to the system.
 
     ```bash
@@ -415,35 +413,35 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     useradd username
     ```
 
-42. **passwd:**
+37. **passwd:**
     - Changes the user password.
 
     ```bash
     passwd username
     ```
 
-43. **su (Switch User):**
+38. **su (Switch User):**
     - Switches to another user account.
 
     ```bash
     su - username
     ```
 
-44. **groups:**
+39. **groups:**
     - Displays the groups a user belongs to.
 
     ```bash
     groups username
     ```
 
-45. **echo:**
+40. **echo:**
     - Prints text to the terminal.
 
     ```bash
     echo "Hello, World!"
     ```
 
-48. **shutdown/reboot:**
+41. **shutdown/reboot:**
     - Shuts down or reboots the system.
 
     ```bash
@@ -456,27 +454,15 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     reboot
     ```
 
-50. **exit:**
+42. **exit:**
     - Exits the current shell or terminal.
 
     ```bash
     exit
     ```
 
-12. **man (Manual):**
-    - Displays the manual or help for a command.
-    ```bash
-    man ls
-    ```
-
-13. **chmod (Change Permissions):**
+43. **chmod (Change Permissions):**
     - Changes file permissions.
     ```bash
     chmod +x script.sh  # add execute permission
-    ```
-
-20. **wget (Web Get):**
-    - Downloads files from the web.
-    ```bash
-    wget https://example.com/file.zip
     ```
