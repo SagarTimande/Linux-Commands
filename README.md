@@ -230,7 +230,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     - Creates a directory and any necessary parent directories in the specified path.
 
     ```bash
-    mkdir -p /home/ubuntu/NewDirectory
+    mkdir -p /home/kiran/NewDirectory
     ```
 
 17. **`touch` (Create Empty File):**
