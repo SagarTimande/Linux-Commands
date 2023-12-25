@@ -311,14 +311,14 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     - Copies files or directories.
 
     ```bash
-    cp file1.txt /home/ubuntu/
+    cp file1.txt /home/kiran/Desktop
     ```
 
 24. **`mv` (Move):**
     - Moves a file from one location to another or renames a file.
 
     ```bash
-    mv file2.txt /home/ubuntu/
+    mv file2.txt /home/kiran/Desktop
     ```
 
 25. **`rm` (Remove):**
@@ -331,84 +331,93 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     To remove a directory and its contents recursively and forcefully:
 
     ```bash
+    cd ~
+    ```
+    ```bash
     rm -rf NewDirectory
     ```
 
-26. **`history > filename.txt` (Save Command History to File):**
+27. **`history > filename.txt` (Save Command History to File):**
     - Writes the command history to a text file.
 
     ```bash
     history > historyfile.txt
     ```
 
-27. **head/tail:**
+28. **head/tail:**
     - Displays the first/last part of a file.
 
     ```bash
-    head file.txt
+    head historyfile.txt
+    ```
+    ```bash
+    tail historyfile.txt
     ```
 
-28. **chmod (Change Mode):**
+29. **chmod (Change Mode):**
     - Changes file permissions.
 
     ```bash
-    chmod permissions file.txt
+    ls -l
+    ```
+    ```bash
+    chmod 766 historyfile.txt
     ```
 
-29. **chown (Change Owner):**
+30. **chown (Change Owner):**
     - Changes the owner of a file or directory.
 
     ```bash
     chown user:group file.txt
     ```
 
-30. **ping (Network Connectivity):**
+31. **ping (Network Connectivity):**
     - Tests network connectivity to a specific IP.
 
     ```bash
     ping google.com
     ```
 
-31. **wget (Web Get):**
+32. **wget (Web Get):**
     - Downloads files from the internet.
 
     ```bash
     wget https://example.com/file.zip
     ```
 
-32. **ssh (Secure Shell):**
+33. **ssh (Secure Shell):**
     - Connects to a remote server securely.
 
     ```bash
     ssh user@remote_server
     ```
 
-33. **uname:**
+34. **uname:**
     - Displays system information.
 
     ```bash
     uname -a
     ```
 
-34. **history:**
+35. **history:**
     - Displays the command history.
 
     ```bash
     history
     ```
 
-35. **sudo (Superuser Do):**
+36. **sudo (Superuser Do):**
     - Executes a command with administrative privileges.
 
     ```bash
-    sudo command
+    sudo apt-get update
     ```
 
-36. **adduser/useradd:**
+37. **adduser/useradd:**
     - Adds a new user to the system.
 
     ```bash
-    adduser username
+    adduser demouser
     ```
 
     or
@@ -417,32 +426,25 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     useradd username
     ```
 
-37. **passwd:**
+38. **passwd:**
     - Changes the user password.
 
     ```bash
     passwd username
     ```
 
-38. **su (Switch User):**
+39. **su (Switch User):**
     - Switches to another user account.
 
     ```bash
     su - username
     ```
 
-39. **groups:**
+40. **groups:**
     - Displays the groups a user belongs to.
 
     ```bash
     groups username
-    ```
-
-40. **echo:**
-    - Prints text to the terminal.
-
-    ```bash
-    echo "Hello, World!"
     ```
 
 41. **shutdown/reboot:**
@@ -463,10 +465,4 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
 
     ```bash
     exit
-    ```
-
-43. **chmod (Change Permissions):**
-    - Changes file permissions.
-    ```bash
-    chmod +x script.sh  # add execute permission
     ```
