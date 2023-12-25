@@ -303,6 +303,9 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```bash
    echo "This is another line of content." >> file1.txt
    ```
+   ```bash
+   cat file1.txt
+   ```
 
 23. **`cp` (Copy):**
     - Copies files or directories.
