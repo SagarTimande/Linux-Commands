@@ -204,15 +204,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```bash
    cd Demo_Directory
    ```
-
    
-14. **`rmdir` (Remove Directory):**
-   - Removes an empty directory.
-
-   ```bash
-   rmdir Demo_Directory
-   ```
-
 15. **`cd ~` (Home Directory):**
    - Changes the current working directory to the user's home directory.
 
@@ -225,6 +217,15 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```bash
    cd
    ```
+
+14. **`rmdir` (Remove Directory):**
+   - Removes an empty directory.
+
+   ```bash
+   rmdir Demo_Directory
+   ```
+
+
 
 16. **`mkdir -p /home/ubuntu/New_Directory` (Create Directory with Path):**
     - Creates a directory and any necessary parent directories in the specified path.
