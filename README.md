@@ -225,14 +225,16 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    rmdir Demo_Directory
    ```
 
-
-
 16. **`mkdir -p /home/ubuntu/New_Directory` (Create Directory with Path):**
     - Creates a directory and any necessary parent directories in the specified path.
 
     ```bash
     mkdir -p /home/kiran/NewDirectory
     ```
+
+   ```bash
+   cd NewDirectory
+   ```
 
 17. **`touch` (Create Empty File):**
    - Creates an empty file with the specified name.
