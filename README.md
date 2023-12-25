@@ -232,22 +232,22 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
     mkdir -p /home/kiran/NewDirectory
     ```
 
-   ```bash
-   cd NewDirectory
-   ```
+    ```bash
+    cd NewDirectory
+    ```
 
 17. **`touch` (Create Empty File):**
    - Creates an empty file with the specified name.
 
    ```bash
-   touch file1.txt file2.txt
+   touch file1.txt file2.txt file3.txt
    ```
 
 18. **`vi` (Text Editor):**
    - Opens the default text editor in Linux, Vi.
 
    ```bash
-   vi filename
+   vi file3.txt
    ```
 ---
 1. **Entering Insert Mode:**
@@ -280,7 +280,7 @@ Certainly! Here's an explanation of each of the basic commands you've listed:
    ```
 
    ```bash
-   echo "This is a sample content." > file2.txt
+   echo "This is sample content." > file2.txt
    ```
 
 20. **`cat` (Concatenate and Display):**
