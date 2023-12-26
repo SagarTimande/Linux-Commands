@@ -1,4 +1,4 @@
-Detailed step-by-step guide, for virtualization and operating system installations:
+## Detailed step-by-step guide, for virtualization and Linux operating system installations:
 
 ### Installing VirtualBox:
 
@@ -113,7 +113,9 @@ Explanation of each directory in a typical Linux file system:
 Remember that while many Linux systems follow a similar directory structure, there can be variations based on the distribution and specific configurations. The Filesystem Hierarchy Standard (FHS) is a set of guidelines that many Linux distributions adhere to maintain a consistent directory structure.
 
 ---
-Certainly! Here's an explanation of each of the basic commands you've listed:
+## Most Important and Frequently used Linux Commands:
+
+Here's an explanation of each of the basic commands you've listed:
 
 1. **`whoami`:**
    - Displays the username of the currently logged-in user.
